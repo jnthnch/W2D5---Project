@@ -1,0 +1,28 @@
+div {
+  
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  border: 5px solid black;
+
+}
+
+#first-div {
+  background-color: #39cccc;
+}
+
+#second-div {
+  box-sizing: border-box;
+  background-color: #ff4136;
+}
+
+#dynamic-div {
+  min-height: 10px;
+  background-color: teal;
+  height: auto;
+}
+
+p {
+  background-color: #7fdbff;
+  
+}
