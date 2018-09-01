@@ -4,7 +4,7 @@ end
 
 class Array
   def hash
-    return 0.hash if self.empty?
+    return 0.hash if self.flatten.empty?
     sum = 0
     self.each_with_index do |el, i|
       sum += (el + i).hash
